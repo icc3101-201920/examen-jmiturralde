@@ -48,11 +48,18 @@ namespace ConsoleApp4
 
         public void PlaceShip(int x, int y, int size)
         {
-            for (int x1=0; x<=9; x1++)
+            for (int x1=0; x1<=9; x1++)
             {
-                for (int y1 = 0; y1 <= 9; y1++)
+                if (x1 == x)
                 {
+                    for (int y1 = 0; y1 <= 9; y1++)
+                    {
+                        if(y1 == y)
+                        {
+                            board.
+                        }
 
+                    }
                 }
             }
         }
